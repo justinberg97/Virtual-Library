@@ -5,6 +5,7 @@ class Movie extends Media {
         super(title, year, genre);
         this.director = director;
         this.duration = duration;
+        // this.rating = rating
     }
 
 summary() {
